@@ -1,0 +1,25 @@
+{
+	"name" : "critical-hits-revisited",
+	"title" : "Critical Hits Revisited",
+	"description" : "A modular implementation of Benjamin Huffman's 'Critical Hits Revisited'",
+	"version" : "1",
+	"authors" : [
+	{
+		"name" : "exanimomeo",
+		"url" : "https://github.com/exanimomeo"
+	}
+	],
+	"languages" : [
+	{
+		"lang" : "en",
+		"name" : "English"
+	}
+	],
+	"url" : "https://github.com/exanimomeo/critical-hits-revisited",
+	"manifest" : "https://github.com/exanimomeo/critical-hits-revisited/releases/latest/download/module.json",
+	"download" : "https://github.com/exanimomeo/critical-hits-revisited/releases/latest/download/foundry-vtt-critical-rolls-revisited.zip",
+	"compatability" : {
+		"minimum": "10",
+		"verified" : "11"
+	}
+}
