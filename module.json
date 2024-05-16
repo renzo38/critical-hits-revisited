@@ -1,12 +1,15 @@
 {
   "title": "Critical Hits Revisited",
   "description": "A modular implementation of Benjamin Huffman's 'Critical Hits Revisited'",
-  "version": "1.0",
+  "version": "1.1",
   "authors": [
     {
       "name": "exanimomeo",
       "url": "https://github.com/exanimomeo"
     }
+  ],
+  "scripts": [
+    "scripts/critical-hits-revisited.js"
   ],
   "url": "https://github.com/exanimomeo/critical-hits-revisited",
   "manifest": "https://github.com/exanimomeo/critical-hits-revisited/releases/latest/download/module.json",
@@ -14,7 +17,44 @@
   "id": "critical-hits-revisited",
   "compatibility": {
     "minimum": "11",
-    "verified": "11",
-    "maximum": "13"
-  }
+    "verified": "11"
+  },
+  "styles": [
+    "styles/critical-hits-revisited.css"
+  ],
+  "packs": [
+    {
+      "name": "critical-hits-revisited-tables",
+      "label": "Critical Hits Revisited (tables)",
+      "path": "packs/critical-hits-revisited-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "critical-hits-revisited-macros",
+      "label": "Critical Hits Revisited (macros)",
+      "path": "packs/critical-hits-revisited-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "critical-hits-revisited-effects",
+      "label": "Critical Hits Revisited (effects)",
+      "path": "packs/critical-hits-revisited-effects",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ]
 }
