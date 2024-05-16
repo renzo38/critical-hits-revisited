@@ -1,7 +1,7 @@
 {
   "title": "Critical Hits Revisited",
   "description": "A modular implementation of Benjamin Huffman's 'Critical Hits Revisited'",
-  "version": "1.1",
+  "version": "1.11",
   "authors": [
     {
       "name": "exanimomeo",
@@ -28,33 +28,51 @@
       "label": "Critical Hits Revisited (tables)",
       "path": "packs/critical-hits-revisited-tables",
       "type": "RollTable",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "critical-hits-revisited-macros",
       "label": "Critical Hits Revisited (macros)",
       "path": "packs/critical-hits-revisited-macros",
       "type": "Macro",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "critical-hits-revisited-effects",
       "label": "Critical Hits Revisited (effects)",
       "path": "packs/critical-hits-revisited-effects",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     }
-  ]
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "chris-premades",
+        "type": "module"
+      },
+      {
+        "id": "midi-qol",
+        "type": "module"
+      }
+    ],
+    "recommends": [
+      {
+        "id": "requestor",
+        "type": "module"
+      }
+    ]
+  }
 }
