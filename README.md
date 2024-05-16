@@ -1,4 +1,4 @@
-This is a module that contains content and implementations of [Benjamin Huffman's Critical Hits Revisited](https://sterlingvermin.wordpress.com/wp-content/uploads/2016/09/critical-hits-revisited.pdf)
+This is a [DND5e] module for Foundry Virtual Tabletop that contains content and implementations of [Benjamin Huffman's Critical Hits Revisited](https://sterlingvermin.wordpress.com/wp-content/uploads/2016/09/critical-hits-revisited.pdf)
 
 It contains three compendium packs: Critical Hits Revisited (tables, macros, effects) which all must be imported in order to use.
 
